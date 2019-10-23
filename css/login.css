@@ -1,0 +1,61 @@
+html,body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.hero.is-success {
+  background: url("../imagens/background_log_reg.jpg") bottom;
+}
+
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input {
+  font-weight: 300;
+}
+
+p {
+  font-weight: 700;
+}
+
+.button-margin {
+  margin-bottom: .5em;
+}
+
+.login {
+  text-decoration: underline;
+}
+
+.div-select {
+  margin-bottom: 2.5em !important;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 60px;
+  background-color: #13bf51;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.box {
+  border-radius: 0 !important;
+}
+
+.input {
+  border-color: #949090;
+}
+
+.input, select, b {
+  color: black;
+  font-weight: 500;
+}
+
+.notification:not(:last-child) {
+  margin: 0;
+}
